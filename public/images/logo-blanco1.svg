@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        filter: url(#filter-3);
+      }
+
+      .cls-4 {
+        filter: url(#filter-4);
+      }
+    </style>
+    <filter id="filter" x="-23" y="11" width="74" height="75" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-5.446" dy="8.387" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.899"/>
+      <feFlood result="flood" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="-22" y="40" width="155" height="150" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-5.446" dy="8.387" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.899"/>
+      <feFlood result="flood" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="-31" y="45" width="84" height="155" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-10.348" dy="15.935" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.196"/>
+      <feFlood result="flood" flood-opacity="0.15"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-4" x="61" y="40" width="157" height="149" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-5.446" dy="8.387" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.899"/>
+      <feFlood result="flood" flood-opacity="0.42"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Elipse_1" data-name="Elipse 1" class="cls-1" d="M18.72,28C24.672,28,29.5,33.285,29.5,39.8s-4.825,11.8-10.777,11.8S7.943,46.323,7.943,39.8,12.768,28,18.72,28Z"/>
+  <path id="N" class="cls-2" d="M93.027,57.979A9.56,9.56,0,0,1,98.112,59.2q1.981,1.221,1.981,6.765v68.646l-72.9-77.624H8.9v0.99q8.716-.4,11.126,5.081t2.41,14.12v65.788q0,6.731-1.222,8.512t-6.24,1.782v0.99H33.665v-0.99a17.342,17.342,0,0,1-4.952-1.188,3.841,3.841,0,0,1-1.519-2.244,17.933,17.933,0,0,1-.528-5.08V72.827l77.586,82.615V66.893q0-5.413,1.651-7.1t5.943-1.816v-0.99H93.027v0.99Z"/>
+  <path id="I" class="cls-3" d="M7.089,56.988v0.99q4.621-.263,5.943,1.881t1.321,9.073v73.9q0,6.666-1.188,8.546t-6.075,1.88v0.99H33.04v-0.99q-3.632,0-5.051-.891a4.453,4.453,0,0,1-1.915-2.244q-0.5-1.353-.5-7.423V68.074a35.3,35.3,0,0,1,.429-7.192q0.429-1.517,2.773-2.309a10.1,10.1,0,0,1,4.259-.594v-0.99H7.089Z"/>
+  <path id="D" class="cls-4" d="M97.517,59.629q1.353,1.65,1.354,9.567V140q0,7.523-1.122,10.392t-4.688,2.871H91.872v0.99h45.693q17.762,0,26.248-2.74a41.769,41.769,0,0,0,16.144-10.169,54.7,54.7,0,0,0,12.117-17.7,52.032,52.032,0,0,0,4.457-20.9,45.6,45.6,0,0,0-4.292-19.975,40.7,40.7,0,0,0-11.622-14.692,47.773,47.773,0,0,0-17.2-8.419q-9.871-2.674-26.907-2.674H91.872v0.99Q96.163,57.979,97.517,59.629ZM170.68,73.3q15.154,14.263,15.154,33.742,0,16.575-11.06,30.605t-38.4,14.032a62.95,62.95,0,0,1-15.65-1.552q-5.811-1.551-8.221-5.018t-2.41-10.6V59.035h14.923Q155.526,59.035,170.68,73.3Z"/>
+</svg>

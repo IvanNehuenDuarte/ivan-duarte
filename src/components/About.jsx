@@ -15,7 +15,7 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Henry, a professional web developer with a knack
+            Welcome! I&apos;m Iván, a professional web developer with a knack
             for crafting visually stunning and highly functional websites.
             Combining creativity and technical expertise. I transform your
             vision into digital masterpiece that excels in both appearance and
@@ -39,11 +39,11 @@ const About = () => {
             ))}
 
             <img
-              src="/images/logo.svg"
+              src="/images/logo-blanco1.svg"
               alt=""
-              width={30}
-              height={30}
-              className="ml-auto md:w-[40px] md:h-[40px]"
+              width={40}
+              height={40}
+              className="ml-auto md:w-[60px] md:h-[60px]"
             />
           </div>
         </div>
