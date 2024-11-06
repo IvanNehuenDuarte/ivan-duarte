@@ -5,9 +5,9 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "/images/figma.svg",
-    label: "Figma",
-    desc: "Design tool",
+    imgSrc: "/images/three-js.svg",
+    label: "Three",
+    desc: "3D Graphics Library",
   },
   {
     imgSrc: "/images/css3.svg",
