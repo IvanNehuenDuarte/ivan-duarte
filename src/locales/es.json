@@ -1,0 +1,48 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre Mi",
+        "work": "Proyectos",
+        "contact": "Contactar"
+    },
+    "hero": {
+        "available": "Disponible para trabajar",
+        "h2": "Creación de sitios web modernos y escalables para el futuro",
+        "button": "Descargar CV",
+        "button1": "Desplazar"
+    },
+    "about": {
+        "p": "¡Bienvenido! Soy Iván, un desarrollador web profesional con un don para crear sitios web visualmente impresionantes y altamente funcionales. Combinando creatividad y experiencia técnica. Transformo su visión en una obra maestra digital que destaca tanto por su aspecto como por su rendimiento.",
+        "item1": "Proyecto realizado",
+        "item2": "Años de experiencia"
+    },
+    "skills": {
+        "h2": "Herramientas esenciales que utilizo",
+        "p": "Descubra las potentes herramientas y tecnologías que utilizo para crear sitios web y aplicaciones excepcionales y de alto rendimiento.",
+        "threejs": "Biblioteca de gráficos 3D",
+        "css": "Interfaz de usuario",
+        "javascript": "Interacción",
+        "nodejs": "Servidor web",
+        "expressjs": "Node Framework",
+        "mongodb": "Base de datos",
+        "react": "Framework",
+        "tailwind": "Interfaz de usuario"
+    },
+    "work": {
+        "h2": "Lo más destacado de mi portfolio"
+    },
+    "contact": {
+        "h2": "Póngase en contacto conmigo para colaborar",
+        "p": "Póngase en contacto hoy mismo para hablar de las necesidades de su proyecto y empezar a colaborar en algo increíble.",
+        "name": "Nombre",
+        "email": "Email",
+        "message": "Mensaje",
+        "btn": "Enviar"
+    },
+    "footer": {
+        "h2": "¡Trabajemos juntos!",
+        "sitemap": "Mapa",
+        "socials": "Redes",
+        "btn": "Iniciar proyecto"
+    }
+}

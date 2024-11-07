@@ -3,6 +3,7 @@
  */
 import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
+import { useTranslation } from "react-i18next";
 
 const Navbar = ({ navOpen }) => {
   const lastActiveLink = useRef();
@@ -39,20 +40,26 @@ const Navbar = ({ navOpen }) => {
     activeBox.current.style.height = event.target.offsetHeight + "px";
   };
 
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng); // Cambia el idioma
+  };
+
   const navItems = [
     {
-      label: "Home",
+      label: t("nav.home"),
       link: "#home",
       className: "nav-link active",
       ref: lastActiveLink,
     },
     {
-      label: "About",
+      label: t("nav.about"),
       link: "#about",
       className: "nav-link",
     },
     {
-      label: "Work",
+      label: t("nav.work"),
       link: "#work",
       className: "nav-link",
     },
@@ -62,7 +69,7 @@ const Navbar = ({ navOpen }) => {
     //   className: "nav-link",
     // },
     {
-      label: "Contact",
+      label: t("nav.contact"),
       link: "#contact",
       className: "nav-link md:hidden",
     },

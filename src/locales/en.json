@@ -1,0 +1,48 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "work": "Work",
+        "contact": "Contact"
+    },
+    "hero": {
+        "available": "Available for work",
+        "h2": "Building Scalable Modern Websites for the Future",
+        "button": "Download CV",
+        "button1": "Scroll Down"
+    },
+    "about": {
+        "p": "Welcome! I'm Iván, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.",
+        "item1": "Project done",
+        "item2": "Years of experience"
+    },
+    "skills": {
+        "h2": "Essential Tools I use",
+        "p": "Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.",
+        "threejs": "3D Graphics Library",
+        "css": "User Interface",
+        "javascript": "Interaction",
+        "nodejs": "Web Server",
+        "expressjs": "Node Framework",
+        "mongodb": "Database",
+        "react": "Framework",
+        "tailwind": "User Interface"
+    },
+    "work": {
+        "h2": "My portfolio highlights"
+    },
+    "contact": {
+        "h2": "Contact me for collaboration",
+        "p": "Reach out today to discuss your project needs and start collaborating on something amazing!",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "btn": "Submit"
+    },
+    "footer": {
+        "h2": "Let's work together today!",
+        "sitemap": "Sitemap",
+        "socials": "Socials",
+        "btn": "Start project"
+    }
+}
