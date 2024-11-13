@@ -11,7 +11,7 @@ const ButtonLng = () => {
   return (
     <button
       onClick={toggleLanguage}
-      className="fixed bottom-5 right-5 bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 z-50"
+      className="fixed bottom-5 right-5 bg-sky-600 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-sky-800 transition duration-300 z-50"
     >
       {i18n.language === "en" ? "ES" : "EN"}
     </button>

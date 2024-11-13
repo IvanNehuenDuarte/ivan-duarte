@@ -11,10 +11,10 @@ import ProjectCard from "./ProjectCard.jsx";
 const Work = () => {
   const works = [
     {
-      imgSrc: "/images/project-1.jpg",
-      title: "Full stack music app",
-      tags: ["API", "MVC", "Development"],
-      projectLink: "https://musify-5al0.onrender.com/",
+      imgSrc: "/images/todoapp1.jpg",
+      title: "Todo App",
+      tags: ["MongoDB", "NodeJs", "React"],
+      projectLink: "https://nomeolvidomas.netlify.app",
     },
     {
       imgSrc: "/images/project-2.jpg",
