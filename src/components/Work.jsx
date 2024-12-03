@@ -23,7 +23,7 @@ const Work = () => {
       projectLink: "https://github.com/codewithsadee-org/wealthome",
     },
     {
-      imgSrc: "/images/background.svg",
+      imgSrc: "/images/apdesweb.svg",
       title: "APDES WEB",
       tags: ["WordPress", "Porto"],
       projectLink: "https://apdes.edu.ar/",
