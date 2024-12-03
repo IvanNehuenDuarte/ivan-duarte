@@ -11,40 +11,40 @@ import ProjectCard from "./ProjectCard.jsx";
 const Work = () => {
   const works = [
     {
-      imgSrc: "/images/todoapp1.jpg",
+      imgSrc: "/images/mate-script.svg",
+      title: "Programming Blog",
+      tags: ["API", "SPA", "React"],
+      projectLink: "https://mate-script.vercel.app/",
+    },
+    {
+      imgSrc: "/images/project-4.jpg",
+      title: "EN PROGRESO",
+      tags: ["Web-design", "Development"],
+      projectLink: "https://github.com/codewithsadee-org/wealthome",
+    },
+    {
+      imgSrc: "/images/background.svg",
+      title: "APDES WEB",
+      tags: ["WordPress", "Porto"],
+      projectLink: "https://apdes.edu.ar/",
+    },
+    {
+      imgSrc: "/images/todoapp.svg",
       title: "Todo App",
       tags: ["MongoDB", "NodeJs", "React"],
       projectLink: "https://nomeolvidomas.netlify.app",
     },
     {
-      imgSrc: "/images/project-2.jpg",
-      title: "Free stock photo app",
-      tags: ["API", "SPA"],
-      projectLink: "https://pixstock-official.vercel.app/",
+      imgSrc: "/images/weather-app.svg",
+      title: "Weather App",
+      tags: ["JavaScript", "API"],
+      projectLink: "https://weather-app-day10.netlify.app/",
     },
     {
-      imgSrc: "/images/project-3.jpg",
-      title: "Recipe app",
-      tags: ["Development", "API"],
+      imgSrc: "/images/background.svg",
+      title: "Próximamente...",
+      tags: ["Web-design", "Development"],
       projectLink: "",
-    },
-    {
-      imgSrc: "/images/project-4.jpg",
-      title: "Real state website",
-      tags: ["Web-design", "Development"],
-      projectLink: "https://github.com/codewithsadee-org/wealthome",
-    },
-    {
-      imgSrc: "/images/project-5.jpg",
-      title: "eCommerce website",
-      tags: ["eCommerce", "Development"],
-      projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
-    },
-    {
-      imgSrc: "/images/project-6.jpg",
-      title: "vCard Personal portfolio",
-      tags: ["Web-design", "Development"],
-      projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
     },
   ];
 
