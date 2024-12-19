@@ -17,16 +17,16 @@ const Work = () => {
       projectLink: "https://mate-script.vercel.app/",
     },
     {
-      imgSrc: "/images/project-4.jpg",
-      title: "EN PROGRESO",
-      tags: ["Web-design", "Development"],
-      projectLink: "https://github.com/codewithsadee-org/wealthome",
-    },
-    {
       imgSrc: "/images/apdesweb.svg",
       title: "APDES WEB",
       tags: ["WordPress", "Porto"],
       projectLink: "https://apdes.edu.ar/",
+    },
+    {
+      imgSrc: "/images/food-delivery.svg",
+      title: "Food Delivery",
+      tags: ["API", "React", "Admin Panel"],
+      projectLink: "https://food-deli-frontend.vercel.app/",
     },
     {
       imgSrc: "/images/todoapp.svg",
