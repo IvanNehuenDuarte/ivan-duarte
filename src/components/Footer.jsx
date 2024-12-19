@@ -41,11 +41,11 @@ const Footer = () => {
   const socials = [
     {
       label: "GitHub",
-      href: "https://www.github.com/codewithsadee-org",
+      href: "https://github.com/IvanNehuenDuarte",
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/codewithsadee",
+      href: "https://www.linkedin.com/in/iv%C3%A1n-nehuen-duarte/",
     },
   ];
 
