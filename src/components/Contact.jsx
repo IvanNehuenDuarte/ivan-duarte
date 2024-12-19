@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 
 const socialLinks = [
   {
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/IvanNehuenDuarte",
     icon: (
       <svg
         width="24"
@@ -23,7 +23,7 @@ const socialLinks = [
     alt: "GitHub",
   },
   {
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/iv%C3%A1n-nehuen-duarte/",
     icon: (
       <svg
         width="24"

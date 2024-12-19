@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between pt-10 mb-8">
+        {/* <div className="flex items-center justify-between pt-10 mb-8">
           <a href="" className="">
             <img
               src="/images/logo-blanco1.svg"
@@ -113,7 +113,7 @@ const Footer = () => {
               alt="Logo"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
