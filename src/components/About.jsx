@@ -12,7 +12,7 @@ const About = () => {
       number: 45,
     },
     {
-      label: t("about.item1"),
+      label: t("about.item2"),
       number: 10,
     },
   ];
