@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 const Navbar = ({ navOpen }) => {
   const lastActiveLink = useRef();
   const activeBox = useRef();
+  const { t, i18n } = useTranslation();
 
   const initActiveBox = () => {
     if (activeBox.current && lastActiveLink.current) {
@@ -43,8 +44,6 @@ const Navbar = ({ navOpen }) => {
     activeBox.current.style.width = event.target.offsetWidth + "px";
     activeBox.current.style.height = event.target.offsetHeight + "px";
   };
-
-  const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
