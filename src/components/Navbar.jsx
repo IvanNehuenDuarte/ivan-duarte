@@ -29,6 +29,10 @@ const Navbar = ({ navOpen }) => {
     };
   }, []);
 
+  useEffect(() => {
+    initActiveBox();
+  }, [i18n.language]);
+
   const activeCurrentLink = (event) => {
     lastActiveLink.current?.classList.remove("active");
     event.target.classList.add("active");
@@ -43,7 +47,9 @@ const Navbar = ({ navOpen }) => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng); // Cambia el idioma
+    i18n.changeLanguage(lng);
+
+    initActiveBox();
   };
 
   const navItems = [
