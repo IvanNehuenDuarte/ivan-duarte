@@ -9,7 +9,7 @@ const About = () => {
   const aboutItems = [
     {
       label: t("about.item1"),
-      number: 15,
+      number: 20,
     },
     {
       label: t("about.item2"),
