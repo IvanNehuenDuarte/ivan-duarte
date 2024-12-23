@@ -9,11 +9,11 @@ const About = () => {
   const aboutItems = [
     {
       label: t("about.item1"),
-      number: 45,
+      number: 15,
     },
     {
       label: t("about.item2"),
-      number: 10,
+      number: 3,
     },
   ];
 
