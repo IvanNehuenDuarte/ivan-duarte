@@ -43,7 +43,12 @@ const Hero = () => {
           </h2>
 
           <div className="flex items-center gap-3">
-            <ButtonPrimary label={t("hero.button")} icon="download" />
+            <ButtonPrimary
+              href="https://drive.google.com/file/d/1N3QZ-4sTSfvokGcdk5kS0AlLIG7xdHhE/view?usp=sharing"
+              target="_blank"
+              label={t("hero.button")}
+              icon="download"
+            />
 
             <ButtonOutline
               href="#about"
